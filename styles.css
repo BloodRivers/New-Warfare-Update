@@ -13,7 +13,7 @@
 }
 
 @font-face {
-    font-family: 'FARRAY';
+    font-family: 'Farray';
     src: url('FARRAY.OTF') format('opentype');
     font-weight: normal;
     font-style: normal;
@@ -70,13 +70,13 @@ body, html {
 }
 
 .update-text {
-    font-family: 'FARRAY', sans-serif;
+    font-family: 'Farray', sans-serif;
     color: white;
     font-size: 50px;
 }
 
 .last-updated {
-    font-family: 'FARRAY', sans-serif;
+    font-family: 'Farray', sans-serif;
     color: white;
     font-size: 24px;
     margin-top: -20px;
@@ -101,7 +101,7 @@ body, html {
     font-size: 50px;
     margin-bottom: 0px;
     margin-top: -50px;
-    font-family: 'FARRAY', sans-serif;
+    font-family: 'Farray', sans-serif;
 }
 
 .beta-update-num {
@@ -112,7 +112,7 @@ body, html {
 }
 
 .name {
-    font-family: 'FARRAY', sans-serif;
+    font-family: 'Farray', sans-serif;
     text-align: center;
 }
 
