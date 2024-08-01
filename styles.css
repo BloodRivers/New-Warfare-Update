@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: 'HitmarkerText';
     src: url('HitmarkerText.ttf') format('truetype');
@@ -27,6 +28,10 @@ body, html {
     background-color: #000;
 }
 
+.red-text{
+    color: red;
+}
+
 .columns {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr; /* Создает две колонки равной ширины */
@@ -35,6 +40,17 @@ body, html {
 .column {
     text-align: center; /* Выравнивание текста по левому краю */
 }
+
+.camo-selection {
+    width: 50%;
+    max-width: 50%;
+}
+
+.new-hud {
+    width: 25%;
+    max-width: 25%;
+}
+
 
 .logo-container {
     position: absolute;
