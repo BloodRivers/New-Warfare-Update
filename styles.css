@@ -14,7 +14,7 @@
 
 @font-face {
     font-family: 'FARRAY';
-    src: url('FARRAY.OTF') format('opentypefont');
+    src: url('FARRAY.OTF') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
