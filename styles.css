@@ -6,16 +6,15 @@
 }
 
 @font-face {
-    font-family: 'FARRAY';
-    src: url('FARRAY.ttf') format('truetype');
+    font-family: 'HitmarkerTextBold';
+    src: url('HitmarkerTextBold.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
-
 @font-face {
-    font-family: 'HitmarkerTextBold';
-    src: url('HitmarkerTextBold.ttf') format('truetype');
+    font-family: 'FARRAY';
+    src: url('FARRAY.OTF') format('opentypefont');
     font-weight: normal;
     font-style: normal;
 }
