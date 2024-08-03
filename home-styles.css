@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'Farray';
+    src: url('FARRAY.OTF') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.strikethrough-text {
+    text-decoration: line-through;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+}
+
+.logo-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards, moveUp 1s 1s ease-in-out forwards, moveLeft 1s 2s ease-in-out forwards;
+}
+
+#logo {
+    width: 600px;
+    animation: scaleDown 2s 1s ease-in-out forwards;
+    transition: width 0.5s ease-in-out;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 20px auto;
+    opacity: 0;
+    animation: fadeInButtons 1s 3s forwards;
+}
+
+.nav-button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-family: 'Farray', sans-serif;
+    font-size: 32px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.nav-button:hover {
+    transform: translateY(-5px);
+}
+
+.line-buttons {
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    margin: 0 auto;
+    opacity: 0;
+    animation: drawLine 1s 2s forwards;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-between;
+    width: 15%;
+    margin: 650px auto;
+    opacity: 0;
+    animation: fadeInButtons 1s 3.5s forwards;
+}
+
+.fab {
+    transition: transform 0.3s ease;
+}
+
+.fab:hover {
+    transform: translateY(-5px);
+}
+
+.social-icons a {
+    color: white;
+    font-size: 32px;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes scaleDown {
+    from {
+        width: 600px;
+    }
+    to {
+        width: 450px;
+    }
+}
+
+@keyframes fadeInButtons {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes drawLine {
+    from {
+        width: 0%;
+        opacity: 0;
+    }
+    to {
+        width: 100%;
+        opacity: 1;
+    }
+}
