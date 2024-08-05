@@ -1,53 +1,11 @@
 @import url('https://fonts.cdnfonts.com/css/farray');
 
-@font-face {
-    font-family: 'Farray';
-    src: url('FARRAY.OTF') format('opentype');
-    font-weight: normal;
-    font-style: normal;
-}
-
 body, html {
     margin: 0;
     padding: 0;
     width: 100%;
     height: 100%;
     background-color: #000;
-}
-
-.red-text{
-    color: red;
-}
-
-.green-text{
-    color: lime;
-}
-
-.yellow-text{
-    color: gold;
-}
-
-.tiles-camos {
-    width: 40%;
-}
-
-.columns {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
-.column {
-    text-align: center;
-}
-
-.camo-selection {
-    width: 50%;
-    max-width: 50%;
-}
-
-.new-hud {
-    width: 25%;
-    max-width: 25%;
 }
 
 .logo-container {
@@ -83,13 +41,14 @@ body, html {
     animation: fadeInText 1s 2s ease-in-out forwards, moveRight 1s 2s ease-in-out forwards;
 }
 
-.update-text {
+.tutorials-text {
+    text-align: left;
     font-family: 'Farray', sans-serif;
     color: white;
     font-size: 50px;
 }
 
-.last-updated {
+.desc {
     font-family: 'Farray', sans-serif;
     color: white;
     font-size: 24px;
@@ -109,20 +68,13 @@ body, html {
     margin-bottom: 200px; /* Increase bottom margin for more space */
 }
 
-.beta-update {
-    color: gold;
+.header {
+    color: azure;
     text-align: center;
     font-size: 50px;
     margin-bottom: 0px;
     margin-top: -50px;
     font-family: 'Farray', sans-serif;
-}
-
-.beta-update-num {
-    color: goldenrod;
-    text-align: center;
-    font-size: 20px;
-    margin-bottom: 20px;
 }
 
 .name {
@@ -132,27 +84,13 @@ body, html {
 
 .section {
     margin-bottom: 40px;
-    text-align: center;
-}
-
-.weapon-image {
-    height: auto;
-    max-width: 50%;
-}
-
-.section h3 {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
-.section p {
-    font-size: 18px;
+    font-size: 20px;
     text-align: center;
 }
 
 .social-icons {
     position: absolute;
-    top: 65px;
+    top: 50px;
     left: 65px;
     display: flex;
     gap: 20px;
@@ -162,7 +100,7 @@ body, html {
 
 .home-button {
     position: absolute;
-    top: 65px;
+    top: 50px;
     right: 65px;
     opacity: 0;
     animation: fadeInContent 1s 3s ease-in-out forwards;
@@ -178,8 +116,8 @@ body, html {
     transform: translateY(-5px);
 }
 
-.playername-image {
-    width: 20%;
+.link {
+    color: cornsilk;
 }
 
 @keyframes fadeIn {
@@ -196,7 +134,7 @@ body, html {
         top: 50%;
     }
     to {
-        top: 10%;
+        top: 12%;
     }
 }
 
@@ -205,7 +143,7 @@ body, html {
         width: 500px;
     }
     to {
-        width: 125px;
+        width: 150px;
     }
 }
 
